@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid transparent;
+}
+
+.doneButton {
+  margin: 12px;
+  align-self: end;
+}

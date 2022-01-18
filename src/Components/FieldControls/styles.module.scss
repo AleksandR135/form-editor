@@ -1,0 +1,22 @@
+.root {
+  position: relative;
+  padding: 8px 55px 8px 20px;
+  border-radius: 4px;
+  transition: ease-out background-color .2s;
+
+  &:hover,
+  &.isEditing {
+    background-color: rgb(202, 202, 202);
+    transition-duration: .4s;
+
+    & .editButton {
+      display: inline-block;
+    }
+  }
+}
+
+.editButton {
+  display: none;
+  margin-top: 4px;
+  cursor: pointer;
+}
